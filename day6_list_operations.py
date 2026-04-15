@@ -1,0 +1,22 @@
+fruits = ["apple","banana","mango"]
+print(fruits)
+fruits.append("orange")
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+print(len(fruits))
+names = ["Ahmed","Ali","Sara"]
+print(names)
+names.append("Aqib")
+print(names)
+names.remove("Ahmed")
+print(names)
+print("Total Names:", len(names))
+names = []
+name1 = input("Enter first name:")
+name2 = input("Enter second name:")
+name3 = input("Enter third name:")
+names.append(name1)
+names.append(name2)
+names.append(name3)
+print("Names list:", names)
